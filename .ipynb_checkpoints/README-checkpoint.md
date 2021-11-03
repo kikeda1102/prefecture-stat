@@ -2,29 +2,39 @@
 
 都道府県ごとの様々な統計データを地図とヒストグラムで可視化
 
+元データ: [ 総務省統計局データ「統計でみる都道府県のすがた」](https://www.stat.go.jp/data/k-sugata/index.html)
+
+
 ![thumbnail](thumbnail.png "thumbnail")
 
 
 * app.py
-本体。dashで動作
+
+  本体。dashで動作
 
 * data/all_data.csv
-「統計でみる都道府県のすがた2021」全データ
+
+  「統計でみる都道府県のすがた2021」全データ
 
 * data/japan.geojson
-都道府県のgeojsonファイル
+  
+  都道府県のgeojsonファイル
 
 * Procfile
-Heroku上で起動するためのコマンドを定義
+  
+  Heroku上で起動するためのコマンドを定義
 
 * requirements.txt
-Heroku用　必要ライブラリ
+  
+  Heroku用　必要ライブラリのリスト
+
+* runtime.txt
+  Heroku用 pythonバージョンを指定
+
 
 * test.ipynb
-テスト用ノートブック
-
-
-
+  
+  テスト用ノートブック
 
 
 

@@ -26,7 +26,11 @@
 
 * requirements.txt
   
-  Heroku用　必要ライブラリ
+  Heroku用　必要ライブラリのリスト
+
+* runtime.txt
+  Heroku用 pythonバージョンを指定
+
 
 * test.ipynb
   
