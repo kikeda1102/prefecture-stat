@@ -1,7 +1,8 @@
 # prefecture-stat
-<<<<<<< HEAD
 
 都道府県ごとの様々な統計データを地図とヒストグラムで可視化
+元データ: [ 総務省統計局データ「統計でみる都道府県のすがた」https://www.stat.go.jp/data/k-sugata/index.html ]
+
 
 ![thumbnail](thumbnail.png "thumbnail")
 
@@ -27,11 +28,3 @@ Heroku用　必要ライブラリ
 
 
 
-
-
-
-=======
-総務省統計局データ「統計でみる都道府県のすがた」をplotly/Dashにより日本地図に描画します
-
-![thumbnail](./thumbnail.png "thumbnail")
->>>>>>> 38c1a84dbb0c5f7dbe05708fb12038271410208c
