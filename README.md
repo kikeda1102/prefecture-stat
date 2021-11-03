@@ -2,13 +2,12 @@
 
 # 都道府県統計マップ
 
-[https://prefecture-stat.herokuapp.com/](https://prefecture-stat.herokuapp.com/){:target="_blank"}
+<a href="https://prefecture-stat.herokuapp.com" target="_blank">https://prefecture-stat.herokuapp.com</a>	
 
 都道府県ごとの様々な統計データを地図とヒストグラムで可視化
 
-
-元データ: [ 総務省統計局データ「統計でみる都道府県のすがた」](https://www.stat.go.jp/data/k-sugata/index.html){:target="_blank"}
-
+元データ:
+<a href="https://www.stat.go.jp/data/k-sugata/index.html" target="_blank">総務省統計局データ「統計でみる都道府県のすがた」</a>	
 
 ![thumbnail](thumbnail.png "thumbnail")
 
