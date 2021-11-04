@@ -30,7 +30,7 @@ app = dash.Dash(
 )
 
 server = app.server
-app.title= '当道府県データマップ'
+app.title= '都道府県データマップ'
 # app._favicon= ("thumbnail.png")
 app.layout = html.Div([
     html.Div(
