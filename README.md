@@ -1,6 +1,6 @@
 # prefecture-stat
 
-# 都道府県統計マップ
+# 都道府県データマップ
 
 <a href="https://prefecture-stat.herokuapp.com" target="_blank">https://prefecture-stat.herokuapp.com</a>	(ロードに時間がかかります)
 
