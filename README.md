@@ -2,7 +2,7 @@
 
 # 都道府県データマップ
 
-<a href="https://prefecture-stat.herokuapp.com" target="_blank">https://prefecture-stat.herokuapp.com</a>	(ロードに時間がかかります)
+<a href="https://prefecture-stat.herokuapp.com" target="_blank">https://prefecture-stat.herokuapp.com</a>	(ロードに少し時間がかかります)
 
 都道府県ごとの様々な統計データを地図とヒストグラムで可視化します。
 
