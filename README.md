@@ -2,9 +2,9 @@
 
 # 都道府県データマップ
 
-<a href="https://prefecture-stat.herokuapp.com" target="_blank">https://prefecture-stat.herokuapp.com</a>	(ロードに少し時間がかかります)
-
 都道府県ごとの各種統計データを日本地図とヒストグラムで可視化するWEBアプリです。
+
+<a href="https://prefecture-stat.herokuapp.com" target="_blank" rel="noopener noreferrer">https://prefecture-stat.herokuapp.com</a>	(ロードに少し時間がかかります)
 
 参照元データ:
 <a href="https://www.stat.go.jp/data/k-sugata/index.html" target="_blank">総務省統計局データ「統計でみる都道府県のすがた」</a>	
