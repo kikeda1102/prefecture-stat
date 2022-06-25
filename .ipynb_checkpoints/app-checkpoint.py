@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# import
 import numpy as np
 import pandas as pd
 import plotly.express as px
@@ -40,9 +39,7 @@ app.layout = html.Div([
                     'margin':'3% auto'
                     # 'color': '#2e8b57'
                 })),
-    dcc.Markdown('''
-    都道府県ごとの様々な統計データを地図とヒストグラムで可視化します。
-    
+    dcc.Markdown('''    
     表示したい項目を選んでください。
     ''',
              style={
@@ -92,20 +89,19 @@ app.layout = html.Div([
 @app.callback(Output('japanmap', 'figure'), [Input('selectplace', 'value')])
 def update_map(selected_value):
     selectdf = df[selected_value]
-    fig = px.choropleth_mapbox(selectdf,
-                               geojson=dfjson,
-                               locations=df['都道府県'],
-                               color=selectdf,
-                               featureidkey='properties.nam_ja',
-                               color_continuous_scale="Viridis",
-                               mapbox_style="carto-positron",
-                               zoom=3.6,
-                               center={
-                                   "lat": 36,
-                                   "lon": 138
-                               },
-                               opacity=0.7,
-                               labels={"総人口 (万人)": "総人口 (万人)"})
+    fig = px.choropleth_mapbox(
+        selectdf,
+        geojson=dfjson,
+        locations=df['都道府県'],
+        color=selectdf,
+        featureidkey='properties.nam_ja',
+        color_continuous_scale="Viridis",
+        mapbox_style="carto-positron",
+        zoom=3.6,
+        center={"lat": 36,"lon": 138},
+        opacity=0.7,
+        labels={"総人口 (万人)": "総人口 (万人)"}
+    )
 
     fig.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
     return fig
@@ -127,5 +123,5 @@ def draw_graph(selected_value):
     return fig
 
 if __name__ == '__main__':
-    #app.run_server(mode='inline')
+    # app.run_server(mode='inline')
     app.run_server()
