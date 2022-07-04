@@ -2,7 +2,7 @@
 
 # 都道府県データマップ
 
-都道府県ごとの各種統計データを日本地図とヒストグラムで可視化するWEBアプリです。
+都道府県ごとの各種統計データを日本地図とヒストグラムで可視化するシンプルなWEBダッシュボードです。
 
 <a href="https://prefecture-stat.herokuapp.com" target="_blank" rel="noopener noreferrer">https://prefecture-stat.herokuapp.com</a>	(ロードに少し時間がかかります)
 
