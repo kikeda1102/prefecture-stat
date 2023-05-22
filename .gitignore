@@ -24,6 +24,6 @@ Pods/*
 !.gitkeep
 .DS_Store
 
- # virtual environment 
- venv/ 
+# virtual environment 
+venv/ 
 
